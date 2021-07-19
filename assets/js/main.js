@@ -188,3 +188,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*===== SWUP TRANSITIONS =====*/
+
+const swup = new Swup();
